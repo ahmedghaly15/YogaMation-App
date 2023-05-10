@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../core/global/app_colors.dart';
 import '../../../get_started/presentation/views/get_started_view.dart';
+import '/core/global/app_colors.dart';
 
 class RestartButton extends StatelessWidget {
   const RestartButton({

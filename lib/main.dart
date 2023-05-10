@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_yoga_animation/core/global/app_theme.dart';
-import 'package:flutter_yoga_animation/features/get_started/presentation/views/get_started_view.dart';
 import 'package:get/get.dart';
+
+import '/core/global/app_theme.dart';
+import '/features/get_started/presentation/views/get_started_view.dart';
 
 void main() => runApp(const YogaAnimation());
 

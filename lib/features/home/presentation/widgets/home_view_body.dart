@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_yoga_animation/features/home/presentation/widgets/circles_and_character.dart';
 
-import '../../../../core/widgets/vertical_space.dart';
-import '../../../../core/widgets/inspiring_text.dart';
+import '/core/widgets/inspiring_text.dart';
+import '/core/widgets/vertical_space.dart';
+import '/features/home/presentation/widgets/circles_and_character.dart';
 import 'restart_button.dart';
 
 class HomeViewBody extends StatefulWidget {

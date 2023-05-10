@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../../../../core/global/app_assets.dart';
-import '../../../../core/widgets/background_circle.dart';
+import '/core/global/app_assets.dart';
+import '/core/widgets/background_circle.dart';
 
 class CirclesAndCharacter extends StatelessWidget {
   const CirclesAndCharacter({

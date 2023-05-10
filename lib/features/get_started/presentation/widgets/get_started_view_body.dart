@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_yoga_animation/core/widgets/inspiring_text.dart';
-import 'package:flutter_yoga_animation/features/get_started/presentation/widgets/arrows_controller.dart';
-import 'package:flutter_yoga_animation/features/get_started/presentation/widgets/circles_and_character.dart';
-import 'package:flutter_yoga_animation/features/get_started/presentation/widgets/get_started_slider.dart';
-// import 'package:just_audio/just_audio.dart';
 
-import '../../../../core/global/app_colors.dart';
-import '../../../../core/widgets/vertical_space.dart';
+import '/core/global/app_colors.dart';
+import '/core/widgets/inspiring_text.dart';
+import '/core/widgets/vertical_space.dart';
+import '/features/get_started/presentation/widgets/arrows_controller.dart';
+import '/features/get_started/presentation/widgets/circles_and_character.dart';
+import '/features/get_started/presentation/widgets/get_started_slider.dart';
 
 class GetStartedViewBody extends StatefulWidget {
   const GetStartedViewBody({super.key});
