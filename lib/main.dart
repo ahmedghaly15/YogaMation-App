@@ -4,10 +4,10 @@ import 'package:get/get.dart';
 import '/core/global/app_theme.dart';
 import '/features/get_started/presentation/views/get_started_view.dart';
 
-void main() => runApp(const YogaAnimation());
+void main() => runApp(const YogaMation());
 
-class YogaAnimation extends StatelessWidget {
-  const YogaAnimation({super.key});
+class YogaMation extends StatelessWidget {
+  const YogaMation({super.key});
 
   @override
   Widget build(BuildContext context) {
