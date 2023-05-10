@@ -6,7 +6,7 @@ import 'package:flutter_yoga_animation/core/widgets/background_circle.dart';
 import 'package:flutter_yoga_animation/features/get_started/presentation/views/get_started_view.dart';
 import 'package:get/get.dart';
 
-import 'vertical_space.dart';
+import '../../../../core/widgets/vertical_space.dart';
 
 class HomeViewBody extends StatefulWidget {
   const HomeViewBody({super.key});
@@ -38,7 +38,7 @@ class _HomeViewBodyState extends State<HomeViewBody>
     final double resHeight = MediaQuery.of(context).size.height;
     return ListView(
       children: <Widget>[
-        VerticalSpace(resHeight: resHeight),
+        VerticalSpace(resHeight: resHeight, height: 0.1),
         AnimatedContainer(
           duration: const Duration(seconds: 1),
           curve: Curves.easeOut,
@@ -66,7 +66,7 @@ class _HomeViewBodyState extends State<HomeViewBody>
             ],
           ),
         ),
-        VerticalSpace(resHeight: resHeight),
+        VerticalSpace(resHeight: resHeight, height: 0.1),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0),
           child: Text(
@@ -79,7 +79,7 @@ class _HomeViewBodyState extends State<HomeViewBody>
             textAlign: TextAlign.center,
           ),
         ),
-        VerticalSpace(resHeight: resHeight),
+        VerticalSpace(resHeight: resHeight, height: 0.1),
         Align(
           alignment: Alignment.center,
           child: GestureDetector(

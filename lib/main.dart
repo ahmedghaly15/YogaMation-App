@@ -1,19 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_yoga_animation/features/home/presentation/views/home_view.dart';
+import 'package:flutter_yoga_animation/core/global/app_theme.dart';
+import 'package:flutter_yoga_animation/features/get_started/presentation/views/get_started_view.dart';
+import 'package:get/get.dart';
 
-void main() {
-  runApp(const YogaAnimation());
-}
+void main() => runApp(const YogaAnimation());
+
+// TODO : change app logo to character in home view
 
 class YogaAnimation extends StatelessWidget {
   const YogaAnimation({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData.light(useMaterial3: true),
-      home: const HomeView(),
+      theme: AppTheme.appTheme(),
+      home: const GetStartedView(),
     );
   }
 }
