@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class InpiringText extends StatelessWidget {
-  const InpiringText({
+class InspiringText extends StatelessWidget {
+  const InspiringText({
     super.key,
     required this.text,
     required this.textColor,

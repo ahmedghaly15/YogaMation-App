@@ -43,7 +43,7 @@ class _HomeViewBodyState extends State<HomeViewBody>
           slideAnimation: slideAnimation,
         ),
         VerticalSpace(resHeight: resHeight, height: 0.1),
-        const InpiringText(
+        const InspiringText(
           text:
               "The time that leads to mastery is dependent on the intensity of our focus",
           textColor: Colors.grey,
