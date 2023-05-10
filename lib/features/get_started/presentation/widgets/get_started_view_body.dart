@@ -29,7 +29,9 @@ class _GetStartedViewBodyState extends State<GetStartedViewBody>
   @override
   void initState() {
     super.initState();
+
     setSystemUIOverlayStyle();
+
     initCircleAnimation();
   }
 
