@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:slide_to_act/slide_to_act.dart';
-
+import 'package:gradient_slide_to_act/gradient_slide_to_act.dart';
 import '../../../../core/global/app_navigator.dart';
 import '../../../home/presentation/views/home_view.dart';
 
@@ -13,12 +12,11 @@ class GetStartedSlider extends StatelessWidget {
   Widget build(BuildContext context) {
     return Builder(
       builder: (context) {
-        final GlobalKey<SlideActionState> key = GlobalKey();
         return Padding(
           padding: const EdgeInsets.all(20.0),
           child: SizedBox(
             width: resWidth * 0.8,
-            child: SlideAction(
+            child: GradientSlideToAct(
               text: "Get Started",
               textStyle: Theme.of(context)
                   .textTheme
@@ -28,8 +26,10 @@ class GetStartedSlider extends StatelessWidget {
               onSubmit: () => AppNavigator.navigateTo(
                 view: const HomeView(),
               ),
-              innerColor: const Color(0xff28a5da),
-              outerColor: Colors.white,
+              backgroundColor: Colors.white,
+              dragableIconBackgroundColor: const Color(0xff28a5da),
+              // innerColor: const Color(0xff28a5da),
+              // outerColor: Colors.white,
             ),
           ),
         );

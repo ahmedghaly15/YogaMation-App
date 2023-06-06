@@ -10,7 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   get: ^4.6.5
-  slide_to_act: ^2.0.1
+  gradient_slide_to_act: ^0.0.2
+  # slide_to_act: ^2.0.1
   flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
